@@ -1,86 +1,97 @@
-# React + Vite + TypeScript Template (react-vite-ui)
+# React Vite UI
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Dan5py/react-vite-ui/blob/main/LICENSE)
+## Overview
 
-A React + Vite template powered by shadcn/ui.
+React Vite UI is a modern web application built with React, Vite, and TypeScript. It features a variety of UI components, including context menus, data tables, drawers, modals, and buttons, all styled with Tailwind CSS.
 
-## 🎉 Features
+## Features
 
-- **React** - A JavaScript library for building user interfaces.
-- **Vite** - A fast, opinionated frontend build tool.
-- **TypeScript** - A typed superset of JavaScript that compiles to plain JavaScript.
-- **Tailwind CSS** - A utility-first CSS framework.
-- **Tailwind Prettier Plugin** - A Prettier plugin for formatting Tailwind CSS classes.
-- **ESLint** - A pluggable linting utility for JavaScript and TypeScript.
-- **PostCSS** - A tool for transforming CSS with JavaScript.
-- **Autoprefixer** - A PostCSS plugin to parse CSS and add vendor prefixes.
-- **shadcn/ui** - Beautifully designed components that you can copy and paste into your apps.
+- **Context Menu**: Powered by Radix UI, providing customizable context menus.
+- **Data Table**: Efficient and responsive data tables using React Table.
+- **Drawer**: Smooth and accessible drawer components with Vaul.
+- **Modal**: Interactive modal dialogs leveraging Radix Dialog.
+- **Button**: Versatile button components with multiple variants.
+- **Tailwind CSS**: Integrated with Tailwind CSS for rapid and responsive design.
 
-## ⚙️ Prerequisites
+## Getting Started
 
-Make sure you have the following installed on your development machine:
+### Prerequisites
 
-- Node.js (version 16 or above)
-- pnpm (package manager)
+- Node.js (>=14.x)
+- npm (>=6.x) or yarn
 
-## 🚀 Getting Started
-
-Follow these steps to get started with the react-vite-ui template:
+### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/dan5py/react-vite-ui.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
+   git clone https://github.com/yourusername/react-vite-ui.git
    cd react-vite-ui
    ```
 
-3. Install the dependencies:
+2. Install dependencies:
 
    ```bash
-   pnpm install
+   npm install
    ```
 
-4. Start the development server:
+   or
 
    ```bash
-   pnpm dev
+   yarn install
    ```
 
-## 📜 Available Scripts
+### Running the Application
 
-- pnpm dev - Starts the development server.
-- pnpm build - Builds the production-ready code.
-- pnpm lint - Runs ESLint to analyze and lint the code.
-- pnpm preview - Starts the Vite development server in preview mode.
+- To start the development server:
 
-## 📂 Project Structure
+  ```bash
+  npm run dev
+  ```
 
-The project structure follows a standard React application layout:
+  or
 
-```python
-react-vite-ui/
-  ├── node_modules/      # Project dependencies
-  ├── public/            # Public assets
-  ├── src/               # Application source code
-  │   ├── components/    # React components
-  │   │   └── ui/        # shadc/ui components
-  │   ├── styles/        # CSS stylesheets
-  │   ├── lib/           # Utility functions
-  │   ├── App.tsx        # Application entry point
-  │   └── index.tsx      # Main rendering file
-  ├── eslint.config.js     # ESLint configuration
-  ├── index.html         # HTML entry point
-  ├── postcss.config.js  # PostCSS configuration
-  ├── tailwind.config.ts # Tailwind CSS configuration
-  ├── tsconfig.json      # TypeScript configuration
-  └── vite.config.ts     # Vite configuration
+  ```bash
+  yarn dev
+  ```
+
+- Open your browser and navigate to `http://localhost:3000` to see the application in action.
+
+### Building for Production
+
+To build the application for production, run:
+
+```bash
+npm run build
 ```
 
-## 📄 License
+or
 
-This project is licensed under the MIT License. See the [LICENSE](https://choosealicense.com/licenses/mit/) file for details.
+```bash
+yarn build
+```
+
+### Linting
+
+To run linting checks, use:
+
+```bash
+npm run lint
+```
+
+or
+
+```bash
+yarn lint
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
