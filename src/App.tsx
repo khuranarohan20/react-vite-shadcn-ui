@@ -3,6 +3,7 @@ import { DataTable } from "./components/DataTable";
 import { DrawerDemo } from "./components/DrawerDemo";
 import Modal from "./components/Modal";
 import { Button } from "./components/ui/button";
+import VirtualizedTable from "./components/VirtualizedTable";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <DrawerDemo />
       </div>
       <DataTable />
+      <div className="container mx-auto py-10">
+        <VirtualizedTable />
+      </div>
     </>
   );
 }
